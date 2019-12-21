@@ -37,3 +37,12 @@ arr2 = np.array([[1, 10], [np.e, np.pi]])
 print(repr(np.log(arr2)))
 # Base 10 logarithm
 print(repr(np.log10(arr2)))
+
+# Taking non e/2 base exponents
+arr = np.array([[1, 2], [3, 4]])
+# Raise 3 to power of each number in arr
+print(repr(np.power(3, arr)))
+
+arr2 = np.array([[10.2, 4], [3, 5]])
+# Raise arr2 to power of each number in arr
+print(repr(np.power(arr2, arr)))
