@@ -58,3 +58,6 @@ print(repr(np.matmul(arr3, arr4)))
 print(repr(np.matmul(arr4, arr3)))
 # This will result in ValueError
 # print(repr(np.matmul(arr3, arr3)))
+
+# Final remarks:
+# Applying the same thing to every element in the array can be done using basic arithmetic functions
