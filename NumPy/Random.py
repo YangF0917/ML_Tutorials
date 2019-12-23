@@ -69,3 +69,4 @@ print(repr(np.random.choice(colors, size=(2, 2),
                             p=[0.8, 0.19, 0.01])))
 # p gives the probability of each event occuring (must sum to 1)
 
+# Useful for generating random data based on probabilities given or by distribution
